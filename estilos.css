@@ -1,0 +1,178 @@
+body{
+    background-size: cover;
+}
+body.fondo1{
+    background-color:rgb(248, 172, 238);
+}
+body.fondo2{
+    background-image: linear-gradient(to right, #fdc0ff, #fd9cd8);
+}
+body.fondo3{
+    background-image: linear-gradient(to right, #f5d2f6, #de42a2);
+}
+body.fondo4{
+    background-image: linear-gradient(to right, #f5e2f5, #f263bb);
+}
+body.fondo5{
+    background-image: linear-gradient(to right, #f5e2f5, #f263bb);
+}
+
+th{
+    text-align:center; 
+    font-size:200%;
+    font-family: 'Crafty Beach';
+    color:deeppink;
+}
+
+td{
+    text-align:justify; 
+    font-size:100%;
+    font-family: 'Century Gothic';
+    color: black;
+}
+h1{
+    text-align:center; 
+    font-size:250%;
+    font-family: 'Racy Mango';
+    color: deeppink;
+}
+
+.contenedor{
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+.barra{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    border: 7px solid rgb(181, 106, 251);
+    padding:27px 400px;
+    border-radius: 45px;
+    cursor:pointer;
+    position: fixed;
+    top: 30%;
+    left: 20%;
+    transform: translate (-50%, -50%)
+}
+
+.busqueda{
+    margin-top: 16.5%;
+    margin-left: 23%;
+    font-size: 150%;
+    font-family: 'A little sunshine';
+    color:hotpink;
+}
+
+.precio{
+    margin-top: -4%;
+    margin-left: 50%;
+    font-size: 150%;
+    font-family: 'A little sunshine';
+    color:hotpink;
+}
+
+.ubicacion{
+    margin-top: -4%;
+    margin-left: 62%;
+    font-size: 150%;
+    font-family: 'A little sunshine';
+    color:hotpink;
+}
+
+.AZ{
+    margin-top: -4%;
+    margin-left: 75%;
+    font-size: 150%;
+    font-family: 'A little sunshine';
+    color:hotpink;
+}
+
+img.flecha{
+    width: 120px;
+    height: 120px;
+    top: 170px;
+    right: 690px;
+    position: absolute;
+}
+
+img.logo{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    width: 180px;
+    height: 180px;
+    top: -25px;
+    right: 1110px;
+    position: absolute;
+}
+a.alojamiento {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-490%, -2%);
+    font-size: 120%;
+    font-family: 'A little sunshine';
+    color: rgb(247, 29, 138);
+}
+
+a.resenas {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-390%, -40%);
+    font-size: 120%;
+    font-family: 'A little sunshine';
+    color: rgb(247, 29, 138);
+}
+
+div.encabezado{
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width: 180%;
+    height: 20%;
+    background-image: linear-gradient(to right, #d270fcbf, #fd9cfd); 
+}
+
+div.renta{
+    position: absolute;
+    top: 15%;
+    left: 52%;
+    transform: translate(-70%, -30%);
+    font-size: 80%;
+    font-family: 'Georgia';
+    color: rgb(55, 1, 28);
+}
+
+.formulario {
+    max-width: 500px;
+    margin: 0 auto;
+    
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form {
+    display: grid;
+    gap: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ff8ceeef;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px;
+    background-color: #e685f3;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
